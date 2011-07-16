@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281DC48D13CBA18100875B7E /* SphereVect.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DC48C13CBA18100875B7E /* SphereVect.m */; };
+		281DC49113CBA3D000875B7E /* CartCord.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DC49013CBA3D000875B7E /* CartCord.m */; };
+		288C862713D0DBBD00F63C4B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 288C862613D0DBBD00F63C4B /* Icon.png */; };
+		289FB1D913D157A700F239CF /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FB1D813D157A700F239CF /* test.m */; };
+		289FCE6713CD491B00FEFD16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FCE6613CD491B00FEFD16 /* CoreLocation.framework */; };
+		28B8192013C6BCE60063131A /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8191F13C6BCE60063131A /* GlobalState.m */; };
+		28C97DAF13C6B295009380C7 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DAD13C6B295009380C7 /* DebugViewController.m */; };
+		28C97DB413C6B38B009380C7 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DB213C6B38B009380C7 /* AccountViewController.m */; };
+		28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DB713C6B3A4009380C7 /* MapViewController.m */; };
+		28EDFDF913C6A6970056C40C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDF813C6A6970056C40C /* UIKit.framework */; };
+		28EDFDFB13C6A6970056C40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFA13C6A6970056C40C /* Foundation.framework */; };
+		28EDFDFD13C6A6970056C40C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFC13C6A6970056C40C /* CoreGraphics.framework */; };
+		28EDFE0313C6A6970056C40C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28EDFE0113C6A6970056C40C /* InfoPlist.strings */; };
+		28EDFE0613C6A6970056C40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDFE0513C6A6970056C40C /* main.m */; };
+		28EDFE0913C6A6970056C40C /* HideAndSeekAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDFE0813C6A6970056C40C /* HideAndSeekAppDelegate.m */; };
+		28EDFE0C13C6A6970056C40C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28EDFE0A13C6A6970056C40C /* MainWindow.xib */; };
+		28EDFE1F13C6A6980056C40C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDF813C6A6970056C40C /* UIKit.framework */; };
+		28EDFE2013C6A6980056C40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFA13C6A6970056C40C /* Foundation.framework */; };
+		28EDFE2113C6A6980056C40C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFC13C6A6970056C40C /* CoreGraphics.framework */; };
+		28EDFE2913C6A6980056C40C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28EDFE2713C6A6980056C40C /* InfoPlist.strings */; };
+		28EDFE2C13C6A6980056C40C /* HideAndSeekTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 28EDFE2B13C6A6980056C40C /* HideAndSeekTests.h */; };
+		28EDFE2E13C6A6980056C40C /* HideAndSeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDFE2D13C6A6980056C40C /* HideAndSeekTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28EDFE2213C6A6980056C40C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EDFDEB13C6A6970056C40C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EDFDF313C6A6970056C40C;
+			remoteInfo = HideAndSeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281DC48B13CBA18100875B7E /* SphereVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereVect.h; sourceTree = "<group>"; };
+		281DC48C13CBA18100875B7E /* SphereVect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereVect.m; sourceTree = "<group>"; };
+		281DC48F13CBA3D000875B7E /* CartCord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCord.h; sourceTree = "<group>"; };
+		281DC49013CBA3D000875B7E /* CartCord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCord.m; sourceTree = "<group>"; };
+		288C862613D0DBBD00F63C4B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		289FB1D713D157A700F239CF /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		289FB1D813D157A700F239CF /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		289FCE6613CD491B00FEFD16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		28B8191E13C6BCE60063131A /* GlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalState.h; sourceTree = "<group>"; };
+		28B8191F13C6BCE60063131A /* GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalState.m; sourceTree = "<group>"; };
+		28C97DAC13C6B295009380C7 /* DebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		28C97DAD13C6B295009380C7 /* DebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
+		28C97DB113C6B38B009380C7 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		28C97DB213C6B38B009380C7 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		28C97DB613C6B3A4009380C7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		28C97DB713C6B3A4009380C7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		28EDFDF413C6A6970056C40C /* HideAndSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideAndSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDFDF813C6A6970056C40C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28EDFDFA13C6A6970056C40C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28EDFDFC13C6A6970056C40C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28EDFE0013C6A6970056C40C /* HideAndSeek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HideAndSeek-Info.plist"; sourceTree = "<group>"; };
+		28EDFE0213C6A6970056C40C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28EDFE0413C6A6970056C40C /* HideAndSeek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HideAndSeek-Prefix.pch"; sourceTree = "<group>"; };
+		28EDFE0513C6A6970056C40C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28EDFE0713C6A6970056C40C /* HideAndSeekAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HideAndSeekAppDelegate.h; sourceTree = "<group>"; };
+		28EDFE0813C6A6970056C40C /* HideAndSeekAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideAndSeekAppDelegate.m; sourceTree = "<group>"; };
+		28EDFE0B13C6A6970056C40C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28EDFE1E13C6A6980056C40C /* HideAndSeekTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideAndSeekTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDFE2613C6A6980056C40C /* HideAndSeekTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HideAndSeekTests-Info.plist"; sourceTree = "<group>"; };
+		28EDFE2813C6A6980056C40C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28EDFE2A13C6A6980056C40C /* HideAndSeekTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HideAndSeekTests-Prefix.pch"; sourceTree = "<group>"; };
+		28EDFE2B13C6A6980056C40C /* HideAndSeekTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HideAndSeekTests.h; sourceTree = "<group>"; };
+		28EDFE2D13C6A6980056C40C /* HideAndSeekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideAndSeekTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EDFDF113C6A6970056C40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289FCE6713CD491B00FEFD16 /* CoreLocation.framework in Frameworks */,
+				28EDFDF913C6A6970056C40C /* UIKit.framework in Frameworks */,
+				28EDFDFB13C6A6970056C40C /* Foundation.framework in Frameworks */,
+				28EDFDFD13C6A6970056C40C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDFE1A13C6A6980056C40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EDFE1F13C6A6980056C40C /* UIKit.framework in Frameworks */,
+				28EDFE2013C6A6980056C40C /* Foundation.framework in Frameworks */,
+				28EDFE2113C6A6980056C40C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288C862513D0DB7F00F63C4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				288C862613D0DBBD00F63C4B /* Icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		28EDFDE913C6A6970056C40C = {
+			isa = PBXGroup;
+			children = (
+				28EDFDFE13C6A6970056C40C /* HideAndSeek */,
+				289FCE6613CD491B00FEFD16 /* CoreLocation.framework */,
+				28EDFE2413C6A6980056C40C /* HideAndSeekTests */,
+				28EDFDF713C6A6970056C40C /* Frameworks */,
+				28EDFDF513C6A6970056C40C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28EDFDF513C6A6970056C40C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EDFDF413C6A6970056C40C /* HideAndSeek.app */,
+				28EDFE1E13C6A6980056C40C /* HideAndSeekTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EDFDF713C6A6970056C40C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28EDFDF813C6A6970056C40C /* UIKit.framework */,
+				28EDFDFA13C6A6970056C40C /* Foundation.framework */,
+				28EDFDFC13C6A6970056C40C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28EDFDFE13C6A6970056C40C /* HideAndSeek */ = {
+			isa = PBXGroup;
+			children = (
+				288C862513D0DB7F00F63C4B /* Resources */,
+				281DC48B13CBA18100875B7E /* SphereVect.h */,
+				281DC48C13CBA18100875B7E /* SphereVect.m */,
+				281DC48F13CBA3D000875B7E /* CartCord.h */,
+				281DC49013CBA3D000875B7E /* CartCord.m */,
+				28B8191E13C6BCE60063131A /* GlobalState.h */,
+				28B8191F13C6BCE60063131A /* GlobalState.m */,
+				28C97DAC13C6B295009380C7 /* DebugViewController.h */,
+				28C97DAD13C6B295009380C7 /* DebugViewController.m */,
+				28C97DB113C6B38B009380C7 /* AccountViewController.h */,
+				28C97DB213C6B38B009380C7 /* AccountViewController.m */,
+				28C97DB613C6B3A4009380C7 /* MapViewController.h */,
+				28C97DB713C6B3A4009380C7 /* MapViewController.m */,
+				28EDFE0713C6A6970056C40C /* HideAndSeekAppDelegate.h */,
+				28EDFE0813C6A6970056C40C /* HideAndSeekAppDelegate.m */,
+				28EDFE0A13C6A6970056C40C /* MainWindow.xib */,
+				28EDFDFF13C6A6970056C40C /* Supporting Files */,
+				289FB1D713D157A700F239CF /* test.h */,
+				289FB1D813D157A700F239CF /* test.m */,
+			);
+			path = HideAndSeek;
+			sourceTree = "<group>";
+		};
+		28EDFDFF13C6A6970056C40C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28EDFE0013C6A6970056C40C /* HideAndSeek-Info.plist */,
+				28EDFE0113C6A6970056C40C /* InfoPlist.strings */,
+				28EDFE0413C6A6970056C40C /* HideAndSeek-Prefix.pch */,
+				28EDFE0513C6A6970056C40C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28EDFE2413C6A6980056C40C /* HideAndSeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				28EDFE2B13C6A6980056C40C /* HideAndSeekTests.h */,
+				28EDFE2D13C6A6980056C40C /* HideAndSeekTests.m */,
+				28EDFE2513C6A6980056C40C /* Supporting Files */,
+			);
+			path = HideAndSeekTests;
+			sourceTree = "<group>";
+		};
+		28EDFE2513C6A6980056C40C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28EDFE2613C6A6980056C40C /* HideAndSeekTests-Info.plist */,
+				28EDFE2713C6A6980056C40C /* InfoPlist.strings */,
+				28EDFE2A13C6A6980056C40C /* HideAndSeekTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EDFDF313C6A6970056C40C /* HideAndSeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EDFE3113C6A6980056C40C /* Build configuration list for PBXNativeTarget "HideAndSeek" */;
+			buildPhases = (
+				28EDFDF013C6A6970056C40C /* Sources */,
+				28EDFDF113C6A6970056C40C /* Frameworks */,
+				28EDFDF213C6A6970056C40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideAndSeek;
+			productName = HideAndSeek;
+			productReference = 28EDFDF413C6A6970056C40C /* HideAndSeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EDFE1D13C6A6980056C40C /* HideAndSeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EDFE3413C6A6980056C40C /* Build configuration list for PBXNativeTarget "HideAndSeekTests" */;
+			buildPhases = (
+				28EDFE1913C6A6980056C40C /* Sources */,
+				28EDFE1A13C6A6980056C40C /* Frameworks */,
+				28EDFE1B13C6A6980056C40C /* Resources */,
+				28EDFE1C13C6A6980056C40C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EDFE2313C6A6980056C40C /* PBXTargetDependency */,
+			);
+			name = HideAndSeekTests;
+			productName = HideAndSeekTests;
+			productReference = 28EDFE1E13C6A6980056C40C /* HideAndSeekTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EDFDEB13C6A6970056C40C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Carlos D. Garza";
+			};
+			buildConfigurationList = 28EDFDEE13C6A6970056C40C /* Build configuration list for PBXProject "HideAndSeek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28EDFDE913C6A6970056C40C;
+			productRefGroup = 28EDFDF513C6A6970056C40C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EDFDF313C6A6970056C40C /* HideAndSeek */,
+				28EDFE1D13C6A6980056C40C /* HideAndSeekTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EDFDF213C6A6970056C40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EDFE0313C6A6970056C40C /* InfoPlist.strings in Resources */,
+				28EDFE0C13C6A6970056C40C /* MainWindow.xib in Resources */,
+				288C862713D0DBBD00F63C4B /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDFE1B13C6A6980056C40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EDFE2913C6A6980056C40C /* InfoPlist.strings in Resources */,
+				28EDFE2C13C6A6980056C40C /* HideAndSeekTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28EDFE1C13C6A6980056C40C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EDFDF013C6A6970056C40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EDFE0613C6A6970056C40C /* main.m in Sources */,
+				28EDFE0913C6A6970056C40C /* HideAndSeekAppDelegate.m in Sources */,
+				28C97DAF13C6B295009380C7 /* DebugViewController.m in Sources */,
+				28C97DB413C6B38B009380C7 /* AccountViewController.m in Sources */,
+				28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */,
+				28B8192013C6BCE60063131A /* GlobalState.m in Sources */,
+				281DC48D13CBA18100875B7E /* SphereVect.m in Sources */,
+				281DC49113CBA3D000875B7E /* CartCord.m in Sources */,
+				289FB1D913D157A700F239CF /* test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EDFE1913C6A6980056C40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EDFE2E13C6A6980056C40C /* HideAndSeekTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28EDFE2313C6A6980056C40C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EDFDF313C6A6970056C40C /* HideAndSeek */;
+			targetProxy = 28EDFE2213C6A6980056C40C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28EDFE0113C6A6970056C40C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EDFE0213C6A6970056C40C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28EDFE0A13C6A6970056C40C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EDFE0B13C6A6970056C40C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		28EDFE2713C6A6980056C40C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EDFE2813C6A6980056C40C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28EDFE2F13C6A6980056C40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28EDFE3013C6A6980056C40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		28EDFE3213C6A6980056C40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideAndSeek/HideAndSeek-Prefix.pch";
+				INFOPLIST_FILE = "HideAndSeek/HideAndSeek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28EDFE3313C6A6980056C40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideAndSeek/HideAndSeek-Prefix.pch";
+				INFOPLIST_FILE = "HideAndSeek/HideAndSeek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28EDFE3513C6A6980056C40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HideAndSeek.app/HideAndSeek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideAndSeekTests/HideAndSeekTests-Prefix.pch";
+				INFOPLIST_FILE = "HideAndSeekTests/HideAndSeekTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		28EDFE3613C6A6980056C40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HideAndSeek.app/HideAndSeek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideAndSeekTests/HideAndSeekTests-Prefix.pch";
+				INFOPLIST_FILE = "HideAndSeekTests/HideAndSeekTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EDFDEE13C6A6970056C40C /* Build configuration list for PBXProject "HideAndSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDFE2F13C6A6980056C40C /* Debug */,
+				28EDFE3013C6A6980056C40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EDFE3113C6A6980056C40C /* Build configuration list for PBXNativeTarget "HideAndSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDFE3213C6A6980056C40C /* Debug */,
+				28EDFE3313C6A6980056C40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EDFE3413C6A6980056C40C /* Build configuration list for PBXNativeTarget "HideAndSeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EDFE3513C6A6980056C40C /* Debug */,
+				28EDFE3613C6A6980056C40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EDFDEB13C6A6970056C40C /* Project object */;
+}

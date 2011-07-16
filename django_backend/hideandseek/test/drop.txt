@@ -1,0 +1,2 @@
+drop table has_game_banned,has_game_players,has_player_hiddenFrom;
+drop table has_positionlog,has_game,has_player;
