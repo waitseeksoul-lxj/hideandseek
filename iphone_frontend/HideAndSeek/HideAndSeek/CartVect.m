@@ -1,14 +1,15 @@
 //
-//  CartCord.m
+//  CartVect.m
 //  HideAndSeek
 //
 //  Created by Carlos Garza on 7/16/11.
 //  Copyright 2011 Carlos D. Garza. All rights reserved.
-// 
-#import "CartCord.h"
+//
+
+#import "CartVect.h"
 
 
-@implementation CartCord
+@implementation CartVect
 @synthesize x;
 @synthesize y;
 @synthesize z;
@@ -20,3 +21,4 @@
 }
 
 @end
+

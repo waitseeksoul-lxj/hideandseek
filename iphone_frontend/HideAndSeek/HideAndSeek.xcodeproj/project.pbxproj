@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		281DC48D13CBA18100875B7E /* SphereVect.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DC48C13CBA18100875B7E /* SphereVect.m */; };
-		281DC49113CBA3D000875B7E /* CartCord.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DC49013CBA3D000875B7E /* CartCord.m */; };
 		288C862713D0DBBD00F63C4B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 288C862613D0DBBD00F63C4B /* Icon.png */; };
 		289FB1D913D157A700F239CF /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FB1D813D157A700F239CF /* test.m */; };
 		289FCE6713CD491B00FEFD16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FCE6613CD491B00FEFD16 /* CoreLocation.framework */; };
@@ -16,6 +15,7 @@
 		28C97DAF13C6B295009380C7 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DAD13C6B295009380C7 /* DebugViewController.m */; };
 		28C97DB413C6B38B009380C7 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DB213C6B38B009380C7 /* AccountViewController.m */; };
 		28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DB713C6B3A4009380C7 /* MapViewController.m */; };
+		28D78A4813D15CF000A187F1 /* CartVect.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D78A4713D15CF000A187F1 /* CartVect.m */; };
 		28EDFDF913C6A6970056C40C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDF813C6A6970056C40C /* UIKit.framework */; };
 		28EDFDFB13C6A6970056C40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFA13C6A6970056C40C /* Foundation.framework */; };
 		28EDFDFD13C6A6970056C40C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFC13C6A6970056C40C /* CoreGraphics.framework */; };
@@ -44,8 +44,6 @@
 /* Begin PBXFileReference section */
 		281DC48B13CBA18100875B7E /* SphereVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereVect.h; sourceTree = "<group>"; };
 		281DC48C13CBA18100875B7E /* SphereVect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereVect.m; sourceTree = "<group>"; };
-		281DC48F13CBA3D000875B7E /* CartCord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCord.h; sourceTree = "<group>"; };
-		281DC49013CBA3D000875B7E /* CartCord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCord.m; sourceTree = "<group>"; };
 		288C862613D0DBBD00F63C4B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		289FB1D713D157A700F239CF /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		289FB1D813D157A700F239CF /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		28C97DB213C6B38B009380C7 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
 		28C97DB613C6B3A4009380C7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		28C97DB713C6B3A4009380C7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		28D78A4613D15CF000A187F1 /* CartVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartVect.h; sourceTree = "<group>"; };
+		28D78A4713D15CF000A187F1 /* CartVect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartVect.m; sourceTree = "<group>"; };
 		28EDFDF413C6A6970056C40C /* HideAndSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideAndSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EDFDF813C6A6970056C40C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28EDFDFA13C6A6970056C40C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -145,9 +145,9 @@
 			children = (
 				288C862513D0DB7F00F63C4B /* Resources */,
 				281DC48B13CBA18100875B7E /* SphereVect.h */,
+				28D78A4613D15CF000A187F1 /* CartVect.h */,
+				28D78A4713D15CF000A187F1 /* CartVect.m */,
 				281DC48C13CBA18100875B7E /* SphereVect.m */,
-				281DC48F13CBA3D000875B7E /* CartCord.h */,
-				281DC49013CBA3D000875B7E /* CartCord.m */,
 				28B8191E13C6BCE60063131A /* GlobalState.h */,
 				28B8191F13C6BCE60063131A /* GlobalState.m */,
 				28C97DAC13C6B295009380C7 /* DebugViewController.h */,
@@ -312,8 +312,8 @@
 				28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */,
 				28B8192013C6BCE60063131A /* GlobalState.m in Sources */,
 				281DC48D13CBA18100875B7E /* SphereVect.m in Sources */,
-				281DC49113CBA3D000875B7E /* CartCord.m in Sources */,
 				289FB1D913D157A700F239CF /* test.m in Sources */,
+				28D78A4813D15CF000A187F1 /* CartVect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
