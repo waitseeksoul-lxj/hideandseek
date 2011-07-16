@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		281DC48D13CBA18100875B7E /* SphereVect.m in Sources */ = {isa = PBXBuildFile; fileRef = 281DC48C13CBA18100875B7E /* SphereVect.m */; };
 		288C862713D0DBBD00F63C4B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 288C862613D0DBBD00F63C4B /* Icon.png */; };
-		289FB1D913D157A700F239CF /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 289FB1D813D157A700F239CF /* test.m */; };
 		289FCE6713CD491B00FEFD16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FCE6613CD491B00FEFD16 /* CoreLocation.framework */; };
 		28B8192013C6BCE60063131A /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8191F13C6BCE60063131A /* GlobalState.m */; };
 		28C97DAF13C6B295009380C7 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DAD13C6B295009380C7 /* DebugViewController.m */; };
@@ -45,8 +44,6 @@
 		281DC48B13CBA18100875B7E /* SphereVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereVect.h; sourceTree = "<group>"; };
 		281DC48C13CBA18100875B7E /* SphereVect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereVect.m; sourceTree = "<group>"; };
 		288C862613D0DBBD00F63C4B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		289FB1D713D157A700F239CF /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		289FB1D813D157A700F239CF /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		289FCE6613CD491B00FEFD16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		28B8191E13C6BCE60063131A /* GlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalState.h; sourceTree = "<group>"; };
 		28B8191F13C6BCE60063131A /* GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalState.m; sourceTree = "<group>"; };
@@ -160,8 +157,6 @@
 				28EDFE0813C6A6970056C40C /* HideAndSeekAppDelegate.m */,
 				28EDFE0A13C6A6970056C40C /* MainWindow.xib */,
 				28EDFDFF13C6A6970056C40C /* Supporting Files */,
-				289FB1D713D157A700F239CF /* test.h */,
-				289FB1D813D157A700F239CF /* test.m */,
 			);
 			path = HideAndSeek;
 			sourceTree = "<group>";
@@ -312,7 +307,6 @@
 				28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */,
 				28B8192013C6BCE60063131A /* GlobalState.m in Sources */,
 				281DC48D13CBA18100875B7E /* SphereVect.m in Sources */,
-				289FB1D913D157A700F239CF /* test.m in Sources */,
 				28D78A4813D15CF000A187F1 /* CartVect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
