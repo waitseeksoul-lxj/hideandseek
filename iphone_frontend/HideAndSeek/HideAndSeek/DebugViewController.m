@@ -7,6 +7,7 @@
 //  
 #import "DebugViewController.h"
 #import "GlobalState.h"
+#import "StateContainer.h"
 
 @implementation DebugViewController
 @synthesize accLabel;
@@ -15,6 +16,7 @@
 @synthesize xLabel;
 @synthesize yLabel;
 @synthesize zLabel;
+@synthesize locCountLabel;
 @synthesize eightBallText;
 @synthesize eightBallButton;
 
@@ -38,6 +40,7 @@
     [xLabel release];
     [yLabel release];
     [zLabel release];
+    [locCountLabel release];
     [eightBallButton release];
     [eightBallText release];
     [super dealloc];
@@ -74,23 +77,25 @@
 }
 
 -(IBAction) locateButtonDown:(id) sender{
+    double r;
+    StateContainer *sc = [GlobalState sc];
     if(gpsSwitch.on){
-        GlobalState.myAcc = GlobalState.myAcc + 1;
+        r = sc.loc.r;
+        r++;
+        sc.loc.r = r;
+        zLabel.text = [self double2strVar: @"r = " Val:r];
     }
-    accLabel.text = [self double2strVar: @"acc=" Val: GlobalState.myAcc];
 }
 
 -(IBAction) gpsToggled:(id) sender{
     if(gpsSwitch.on){
-        GlobalState.myAcc = 0.0;
-        accLabel.text = [self double2strVar: @"acc=" Val: GlobalState.myAcc];
     }else{
         
     }
 }
 
 -(IBAction) eightBallDown:(id) sender{
-    NSString *msg = [GlobalState randomEightBallMessage];
+    NSString *msg = [[GlobalState sc] randomEightBallMessage];
     eightBallText.text = msg;
 }
 

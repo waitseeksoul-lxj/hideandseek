@@ -15,6 +15,7 @@
     IBOutlet UILabel  *xLabel;
     IBOutlet UILabel  *yLabel;
     IBOutlet UILabel  *zLabel;
+    IBOutlet UILabel  *locCountLabel;
     IBOutlet UITextView *eightBallText;
     IBOutlet UIButton *eightBallButton;
 }
@@ -25,6 +26,7 @@
 @property (nonatomic,retain) IBOutlet UILabel *xLabel;
 @property (nonatomic,retain) IBOutlet UILabel *yLabel;
 @property (nonatomic,retain) IBOutlet UILabel *zLabel;
+@property (nonatomic,retain) IBOutlet UILabel *locCountLabel;
 @property (nonatomic,retain) IBOutlet UIButton *eightBallButton;
 @property (nonatomic,retain) IBOutlet UITextView *eightBallText;
 

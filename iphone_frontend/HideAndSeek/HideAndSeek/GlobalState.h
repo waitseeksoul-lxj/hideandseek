@@ -7,14 +7,13 @@
 //
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import "StateContainer.h"
 
 @interface GlobalState : NSObject {
-    
 }
-+(void)setMyAcc:(double) acc;
-+(double)myAcc;
+
 +(void)init;
-+(NSString *)randomEightBallMessage;
 +(void)dealloc;
++(StateContainer *)sc;
 @end
 
