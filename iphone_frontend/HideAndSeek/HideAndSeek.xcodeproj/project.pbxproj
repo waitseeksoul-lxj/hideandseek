@@ -133,8 +133,8 @@
 			children = (
 				28C97DAC13C6B295009380C7 /* DebugViewController.h */,
 				28C97DAD13C6B295009380C7 /* DebugViewController.m */,
-				28C97DB113C6B38B009380C7 /* AccountViewController.h */,
 				28C97DB213C6B38B009380C7 /* AccountViewController.m */,
+				28C97DB113C6B38B009380C7 /* AccountViewController.h */,
 				28C97DB613C6B3A4009380C7 /* MapViewController.h */,
 				28C97DB713C6B3A4009380C7 /* MapViewController.m */,
 			);

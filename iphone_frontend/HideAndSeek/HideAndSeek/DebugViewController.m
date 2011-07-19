@@ -5,17 +5,19 @@
 //  Created by Carlos Garza on 7/16/11.
 //  Copyright 2011 Carlos D. Garza. All rights reserved.
 //  
+
 #import "DebugViewController.h"
 #import "GlobalState.h"
 #import "StateContainer.h"
+#import "locationController.h"
 
 @implementation DebugViewController
 @synthesize accLabel;
 @synthesize locateButton;
 @synthesize gpsSwitch;
-@synthesize xLabel;
-@synthesize yLabel;
-@synthesize zLabel;
+@synthesize rLabel;
+@synthesize thLabel;
+@synthesize phLabel;
 @synthesize locCountLabel;
 @synthesize eightBallText;
 @synthesize eightBallButton;
@@ -23,6 +25,11 @@
 -(NSString *)double2strVar:(NSString *) var Val: (double) x{
     return [NSString stringWithFormat:@"%@%f",var,x];
 }
+
+-(NSString *)int2strVar:(NSString *) var Val: (int) x{
+    return [NSString stringWithFormat:@"%@%i",var,x];
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,9 +44,9 @@
     [locateButton release];
     [gpsSwitch release];
     [accLabel release];
-    [xLabel release];
-    [yLabel release];
-    [zLabel release];
+    [rLabel release];
+    [thLabel release];
+    [phLabel release];
     [locCountLabel release];
     [eightBallButton release];
     [eightBallText release];
@@ -77,20 +84,23 @@
 }
 
 -(IBAction) locateButtonDown:(id) sender{
-    double r;
-    StateContainer *sc = [GlobalState sc];
-    if(gpsSwitch.on){
-        r = sc.loc.r;
-        r++;
-        sc.loc.r = r;
-        zLabel.text = [self double2strVar: @"r = " Val:r];
-    }
+    double r = 0.0;
+    double th = GlobalState.sc.loc.th;
+    double ph = GlobalState.sc.loc.ph;
+    int nCount = GlobalState.sc.locCount;
+    
+    self.rLabel.text = [self double2strVar: @"R = " Val: r];
+    self.thLabel.text = [self double2strVar: @"Th = " Val: th];
+    self.phLabel.text = [self double2strVar: @"Rh = " Val: ph];
+    self.locCountLabel.text = [self int2strVar: @"n = " Val: nCount];
 }
 
 -(IBAction) gpsToggled:(id) sender{
+    CLLocationManager *cl = GlobalState.sc.locController.locationMgr;
     if(gpsSwitch.on){
+        [cl startUpdatingLocation];
     }else{
-        
+        [cl stopUpdatingLocation];
     }
 }
 

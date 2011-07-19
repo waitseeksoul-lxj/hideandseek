@@ -12,9 +12,9 @@
     IBOutlet UIButton *locateButton;
     IBOutlet UISwitch *gpsSwitch;
     IBOutlet UILabel  *accLabel;
-    IBOutlet UILabel  *xLabel;
-    IBOutlet UILabel  *yLabel;
-    IBOutlet UILabel  *zLabel;
+    IBOutlet UILabel  *rLabel;
+    IBOutlet UILabel  *thLabel;
+    IBOutlet UILabel  *phLabel;
     IBOutlet UILabel  *locCountLabel;
     IBOutlet UITextView *eightBallText;
     IBOutlet UIButton *eightBallButton;
@@ -23,9 +23,9 @@
 @property (nonatomic,retain) IBOutlet UIButton *locateButton;
 @property (nonatomic,retain) IBOutlet UISwitch *gpsSwitch;
 @property (nonatomic,retain) IBOutlet UILabel *accLabel;
-@property (nonatomic,retain) IBOutlet UILabel *xLabel;
-@property (nonatomic,retain) IBOutlet UILabel *yLabel;
-@property (nonatomic,retain) IBOutlet UILabel *zLabel;
+@property (nonatomic,retain) IBOutlet UILabel *rLabel;
+@property (nonatomic,retain) IBOutlet UILabel *thLabel;
+@property (nonatomic,retain) IBOutlet UILabel *phLabel;
 @property (nonatomic,retain) IBOutlet UILabel *locCountLabel;
 @property (nonatomic,retain) IBOutlet UIButton *eightBallButton;
 @property (nonatomic,retain) IBOutlet UITextView *eightBallText;

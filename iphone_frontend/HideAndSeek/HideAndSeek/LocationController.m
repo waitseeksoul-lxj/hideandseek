@@ -8,17 +8,18 @@
 
 #import "LocationController.h"
 #import "GlobalState.h"
+#import "SphereVect.h"
 
 @implementation LocationController
-@synthesize locationManager;
+@synthesize locationMgr;
 
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        self.locationManager = [[CLLocationManager alloc] init];
-        self.locationManager.delegate = self;
+        self.locationMgr = [[CLLocationManager alloc] init];
+        self.locationMgr.delegate = self;
     }
     
     return self;
@@ -27,7 +28,11 @@
 -(void)locationManager:(CLLocationManager *)manager
    didUpdateToLocation:(CLLocation *)nLoc
     fromLocation:(CLLocation *)oLoc{
-    
+    double th = nLoc.coordinate.latitude;
+    double ph = nLoc.coordinate.longitude;
+    SphereVect *loc = GlobalState.sc.loc;
+    GlobalState.sc.locCount += 1;
+    [loc setR:0.0 Th:th Ph:ph];
 }
 
 -(void)locationManager:(CLLocationManager *)manager
@@ -36,7 +41,7 @@
 }
 - (void)dealloc
 {
-    [locationManager release];
+    [locationMgr release];
     [super dealloc];
 }
 

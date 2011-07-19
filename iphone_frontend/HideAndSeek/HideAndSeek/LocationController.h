@@ -10,13 +10,13 @@
 #import <Corelocation/CoreLocation.h>
 
 @interface LocationController : NSObject<CLLocationManagerDelegate> {
-    CLLocationManager *locationManager;
+    CLLocationManager *locationMgr;
 }
 
-@property(nonatomic,retain) CLLocationManager *locationManager;
+@property(nonatomic,retain) CLLocationManager *locationMgr;
 
 -(void)locationManager:(CLLocationManager *)manager
-  didUpdateTiKicatuibL:(CLLocation *)nLoc
+  didUpdateToLocation:(CLLocation *)nLoc
     fromLocation:(CLLocation *)oLoc;
 
 -(void)locationManager:(CLLocationManager *)manager

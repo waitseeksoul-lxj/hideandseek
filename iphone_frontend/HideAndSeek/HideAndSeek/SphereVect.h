@@ -19,6 +19,10 @@
 @property (nonatomic,assign) double th;
 @property (nonatomic,assign) double ph;
 
+-(id)init;
+
 -(void)setR:(double)r Th:(double) th Ph:(double)ph;
+
+-(void)dealloc;
 
 @end
