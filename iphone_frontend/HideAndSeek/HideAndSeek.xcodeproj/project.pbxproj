@@ -15,8 +15,8 @@
 		28B8192013C6BCE60063131A /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B8191F13C6BCE60063131A /* GlobalState.m */; };
 		28C97DAF13C6B295009380C7 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DAD13C6B295009380C7 /* DebugViewController.m */; };
 		28C97DB413C6B38B009380C7 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DB213C6B38B009380C7 /* AccountViewController.m */; };
-		28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C97DB713C6B3A4009380C7 /* MapViewController.m */; };
 		28D78A4813D15CF000A187F1 /* CartVect.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D78A4713D15CF000A187F1 /* CartVect.m */; };
+		28EB2EE313DA7C54003A3C38 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EB2EE213DA7C54003A3C38 /* MapViewController.m */; };
 		28EDFDF913C6A6970056C40C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDF813C6A6970056C40C /* UIKit.framework */; };
 		28EDFDFB13C6A6970056C40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFA13C6A6970056C40C /* Foundation.framework */; };
 		28EDFDFD13C6A6970056C40C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EDFDFC13C6A6970056C40C /* CoreGraphics.framework */; };
@@ -30,6 +30,9 @@
 		28EDFE2913C6A6980056C40C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28EDFE2713C6A6980056C40C /* InfoPlist.strings */; };
 		28EDFE2C13C6A6980056C40C /* HideAndSeekTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 28EDFE2B13C6A6980056C40C /* HideAndSeekTests.h */; };
 		28EDFE2E13C6A6980056C40C /* HideAndSeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EDFE2D13C6A6980056C40C /* HideAndSeekTests.m */; };
+		28F0F58213DA73EF00A5AF23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F0F58113DA73EF00A5AF23 /* MapKit.framework */; };
+		28F0F58513DA740C00A5AF23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F0F58413DA740C00A5AF23 /* CoreLocation.framework */; };
+		28F0F58713DA741100A5AF23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F0F58613DA741100A5AF23 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +60,10 @@
 		28C97DAD13C6B295009380C7 /* DebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
 		28C97DB113C6B38B009380C7 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		28C97DB213C6B38B009380C7 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
-		28C97DB613C6B3A4009380C7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		28C97DB713C6B3A4009380C7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		28D78A4613D15CF000A187F1 /* CartVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartVect.h; sourceTree = "<group>"; };
 		28D78A4713D15CF000A187F1 /* CartVect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartVect.m; sourceTree = "<group>"; };
+		28EB2EE113DA7C54003A3C38 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		28EB2EE213DA7C54003A3C38 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		28EDFDF413C6A6970056C40C /* HideAndSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideAndSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EDFDF813C6A6970056C40C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28EDFDFA13C6A6970056C40C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,6 +81,9 @@
 		28EDFE2A13C6A6980056C40C /* HideAndSeekTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HideAndSeekTests-Prefix.pch"; sourceTree = "<group>"; };
 		28EDFE2B13C6A6980056C40C /* HideAndSeekTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HideAndSeekTests.h; sourceTree = "<group>"; };
 		28EDFE2D13C6A6980056C40C /* HideAndSeekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideAndSeekTests.m; sourceTree = "<group>"; };
+		28F0F58113DA73EF00A5AF23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		28F0F58413DA740C00A5AF23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		28F0F58613DA741100A5AF23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F0F58213DA73EF00A5AF23 /* MapKit.framework in Frameworks */,
 				289FCE6713CD491B00FEFD16 /* CoreLocation.framework in Frameworks */,
 				28EDFDF913C6A6970056C40C /* UIKit.framework in Frameworks */,
 				28EDFDFB13C6A6970056C40C /* Foundation.framework in Frameworks */,
@@ -96,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F0F58713DA741100A5AF23 /* MapKit.framework in Frameworks */,
+				28F0F58513DA740C00A5AF23 /* CoreLocation.framework in Frameworks */,
 				28EDFE1F13C6A6980056C40C /* UIKit.framework in Frameworks */,
 				28EDFE2013C6A6980056C40C /* Foundation.framework in Frameworks */,
 				28EDFE2113C6A6980056C40C /* CoreGraphics.framework in Frameworks */,
@@ -121,6 +130,8 @@
 		285ECD0D13D160BB00E7ADAC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				28EB2EE113DA7C54003A3C38 /* MapViewController.h */,
+				28EB2EE213DA7C54003A3C38 /* MapViewController.m */,
 				28332CE713D16317009B6C13 /* LocationController.h */,
 				28332CE813D16317009B6C13 /* LocationController.m */,
 				285ECD0E13D160CE00E7ADAC /* Views */,
@@ -135,8 +146,6 @@
 				28C97DAD13C6B295009380C7 /* DebugViewController.m */,
 				28C97DB213C6B38B009380C7 /* AccountViewController.m */,
 				28C97DB113C6B38B009380C7 /* AccountViewController.h */,
-				28C97DB613C6B3A4009380C7 /* MapViewController.h */,
-				28C97DB713C6B3A4009380C7 /* MapViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 		288C862513D0DB7F00F63C4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				28EDFE0A13C6A6970056C40C /* MainWindow.xib */,
 				288C862613D0DBBD00F63C4B /* Icon.png */,
 			);
 			name = Resources;
@@ -152,6 +162,9 @@
 		28EDFDE913C6A6970056C40C = {
 			isa = PBXGroup;
 			children = (
+				28F0F58613DA741100A5AF23 /* MapKit.framework */,
+				28F0F58413DA740C00A5AF23 /* CoreLocation.framework */,
+				28F0F58113DA73EF00A5AF23 /* MapKit.framework */,
 				28EDFDFE13C6A6970056C40C /* HideAndSeek */,
 				289FCE6613CD491B00FEFD16 /* CoreLocation.framework */,
 				28EDFE2413C6A6980056C40C /* HideAndSeekTests */,
@@ -189,7 +202,6 @@
 				28B8191F13C6BCE60063131A /* GlobalState.m */,
 				28EDFE0713C6A6970056C40C /* HideAndSeekAppDelegate.h */,
 				28EDFE0813C6A6970056C40C /* HideAndSeekAppDelegate.m */,
-				28EDFE0A13C6A6970056C40C /* MainWindow.xib */,
 				28EDFDFF13C6A6970056C40C /* Supporting Files */,
 			);
 			path = HideAndSeek;
@@ -338,12 +350,12 @@
 				28EDFE0913C6A6970056C40C /* HideAndSeekAppDelegate.m in Sources */,
 				28C97DAF13C6B295009380C7 /* DebugViewController.m in Sources */,
 				28C97DB413C6B38B009380C7 /* AccountViewController.m in Sources */,
-				28C97DB913C6B3A4009380C7 /* MapViewController.m in Sources */,
 				28B8192013C6BCE60063131A /* GlobalState.m in Sources */,
 				281DC48D13CBA18100875B7E /* SphereVect.m in Sources */,
 				28D78A4813D15CF000A187F1 /* CartVect.m in Sources */,
 				28332CE913D16317009B6C13 /* LocationController.m in Sources */,
 				28332CEC13D16D1E009B6C13 /* StateContainer.m in Sources */,
+				28EB2EE313DA7C54003A3C38 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

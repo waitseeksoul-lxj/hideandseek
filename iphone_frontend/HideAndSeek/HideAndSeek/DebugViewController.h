@@ -12,7 +12,6 @@
     IBOutlet UIButton *locateButton;
     IBOutlet UISwitch *gpsSwitch;
     IBOutlet UILabel  *accLabel;
-    IBOutlet UILabel  *rLabel;
     IBOutlet UILabel  *thLabel;
     IBOutlet UILabel  *phLabel;
     IBOutlet UILabel  *locCountLabel;

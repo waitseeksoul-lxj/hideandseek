@@ -15,7 +15,6 @@
 @synthesize accLabel;
 @synthesize locateButton;
 @synthesize gpsSwitch;
-@synthesize rLabel;
 @synthesize thLabel;
 @synthesize phLabel;
 @synthesize locCountLabel;
@@ -35,6 +34,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
     }
     return self;
 }
@@ -44,7 +44,6 @@
     [locateButton release];
     [gpsSwitch release];
     [accLabel release];
-    [rLabel release];
     [thLabel release];
     [phLabel release];
     [locCountLabel release];
@@ -84,14 +83,12 @@
 }
 
 -(IBAction) locateButtonDown:(id) sender{
-    double r = 0.0;
     double th = GlobalState.sc.loc.th;
     double ph = GlobalState.sc.loc.ph;
     int nCount = GlobalState.sc.locCount;
     
-    self.rLabel.text = [self double2strVar: @"R = " Val: r];
     self.thLabel.text = [self double2strVar: @"Th = " Val: th];
-    self.phLabel.text = [self double2strVar: @"Rh = " Val: ph];
+    self.phLabel.text = [self double2strVar: @"Ph = " Val: ph];
     self.locCountLabel.text = [self int2strVar: @"n = " Val: nCount];
 }
 
