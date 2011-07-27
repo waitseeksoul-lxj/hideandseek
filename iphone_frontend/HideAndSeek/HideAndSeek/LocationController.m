@@ -20,8 +20,8 @@
     if (self) {
         self.locationMgr = [[CLLocationManager alloc] init];
         self.locationMgr.delegate = self;
-    }
-    
+        self.locationMgr.desiredAccuracy =kCLLocationAccuracyHundredMeters;
+    }    
     return self;
 }
 
