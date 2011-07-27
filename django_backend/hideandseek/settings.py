@@ -1,5 +1,9 @@
 # Django settings for hideandseek project.
 
+import sys
+import os
+
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -64,6 +68,9 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'hideandseek.urls'
+
+this_dir = os.path.dirname(__file__)
+
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".

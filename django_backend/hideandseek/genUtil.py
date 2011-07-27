@@ -2,12 +2,6 @@
 
 from math import sin, cos, asin, atan2, acos, sqrt, fmod, pi
 
-erad = 6356780.0  #Earth radius In meters
-r2d = 180.0/pi
-d2r = pi/180.0
-meter2mile = 0.00062137119223733392
-#distance between 2grid points  points in meters
-
 def heading(lat1,lon1,lat2,lon2):
     lat1 *= d2r
     lon1 *= d2r
@@ -90,3 +84,10 @@ def avgsph(points):
     avg_vect = norm(*sum_vect)
     sph = vsmul(erad,*avg_vect)
     return car2sph(*sph)
+
+erad = 6356780.0  #Earth radius In meters
+r2d = 180.0/pi
+d2r = pi/180.0
+meter2mile = 0.00062137119223733392
+#distance between 2grid points  points in meters
+	
