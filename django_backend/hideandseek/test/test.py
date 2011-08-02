@@ -21,6 +21,7 @@ from hideandseek.has.models import *
 from hideandseek.has.modelUtil import *
 from hideandseek.aes import aes_b64encrypt,aes_b64decrypt
 from hideandseek.genUtil import *
+from hideandseek.fileUtil import *
 
 def now():
     return datetime.datetime.now()

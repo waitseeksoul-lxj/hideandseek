@@ -2,6 +2,7 @@
 
 from django.template import Context
 from django.db.models import Q
+import json
 
 import hideandseek.has
 import new
@@ -28,7 +29,8 @@ class HView(object):
         self.dl = DynamicLoader()
         dl = self.dl
         
-        meth_dict = {"hideandseek.has.view.test":["testjson"]
+        meth_dict = {"hideandseek.has.view.test":
+                       ["jsonout","jsonin","avgpoints"]
                     }
         for (mod_name,method_names) in meth_dict.items():
             for meth_name in method_names:
@@ -37,6 +39,10 @@ class HView(object):
                 new_method = new.instancemethod(meth_def,self,self.__class__)
                 setattr(self,meth_name,new_method)
 
+    #load json object from request
+    def loadJson(self):
+        return json.loads(self.request.raw_post_data)
+
 #Generic view
     def gview(self,request,*args,**kw):
         if "view" in kw:
@@ -44,5 +50,8 @@ class HView(object):
             func = getattr(self,"%s"%view_name)
             self.request = request
             self.session = request.session
+            self.raw = request.raw_post_data
             self.ctx = Context()
+            self.jdumps = json.dumps
+            self.jloads = json.loads
             return func()
