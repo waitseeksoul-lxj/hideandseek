@@ -8,7 +8,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = ('Carlos D. Gaza', 'crc32@att.net')
-
+APPEND_SLASH=False
 MANAGERS = ADMINS
 KEY = 'key'
 SESSION_COOKIE_AGE = 86400
