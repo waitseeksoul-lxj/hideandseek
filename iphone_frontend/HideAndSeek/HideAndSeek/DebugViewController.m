@@ -76,6 +76,7 @@
     // e.g. self.myOutlet = nil;
 }
 
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
@@ -96,6 +97,8 @@
     CLLocationManager *cl = GlobalState.sc.locController.locationMgr;
     if(gpsSwitch.on){
         [cl startUpdatingLocation];
+        GlobalState.sc.sphVects = [[[NSMutableArray alloc] init]autorelease];
+        [GlobalState nop];
     }else{
         [cl stopUpdatingLocation];
     }

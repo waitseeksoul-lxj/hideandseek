@@ -27,4 +27,7 @@ static StateContainer *sc;
     return sc;
 }
 
++(void)nop{    
+}
+
 @end

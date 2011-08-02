@@ -33,4 +33,3 @@
 -(IBAction) gpsToggled:(id) sender;
 -(IBAction) eightBallDown:(id) sender;
 @end
-

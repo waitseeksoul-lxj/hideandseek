@@ -17,12 +17,14 @@
     int locCount;
     NSArray *eightBall;
     LocationController *locController;
+    NSMutableArray *sphVects;
 }
 
 @property (nonatomic,retain) SphereVect *loc;
 @property (nonatomic) double locAcc;
 @property (nonatomic) int locCount;
 @property (nonatomic,retain) LocationController *locController;
+@property (nonatomic,retain) NSMutableArray *sphVects;
 
 -(id)init;
 -(void)dealloc;

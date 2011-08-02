@@ -18,9 +18,9 @@
 {
     self = [super init];
     if (self) {
-        self.locationMgr = [[CLLocationManager alloc] init];
+        self.locationMgr = [[[CLLocationManager alloc] init]autorelease];
         self.locationMgr.delegate = self;
-        self.locationMgr.desiredAccuracy =kCLLocationAccuracyHundredMeters;
+        //self.locationMgr.desiredAccuracy =kCLLocationAccuracyHundredMeters;
     }    
     return self;
 }
@@ -30,9 +30,14 @@
     fromLocation:(CLLocation *)oLoc{
     double th = nLoc.coordinate.latitude;
     double ph = nLoc.coordinate.longitude;
+    SphereVect *sv = [[SphereVect alloc]init];
     SphereVect *loc = GlobalState.sc.loc;
-    GlobalState.sc.locCount += 1;
+    NSMutableArray *svArry = GlobalState.sc.sphVects;
     [loc setR:0.0 Th:th Ph:ph];
+    [sv setR:0.0 Th:th Ph:ph];
+    [svArry addObject:sv];
+    [sv release];
+    GlobalState.sc.locCount += 1;
 }
 
 -(void)locationManager:(CLLocationManager *)manager

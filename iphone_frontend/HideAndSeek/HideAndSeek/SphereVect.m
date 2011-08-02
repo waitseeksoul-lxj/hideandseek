@@ -8,7 +8,6 @@
 
 #import "SphereVect.h"
 
-
 @implementation SphereVect
 @synthesize r;
 @synthesize th;

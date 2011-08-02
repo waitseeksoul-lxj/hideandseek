@@ -14,6 +14,7 @@
 
 +(void)init;
 +(void)dealloc;
++(void)nop;
 +(StateContainer *)sc;
 @end
 
